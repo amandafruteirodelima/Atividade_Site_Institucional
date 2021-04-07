@@ -4,7 +4,9 @@ body {
 
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;}
+    font-family: Arial, Helvetica, sans-serif;
+background-color:rgb(241, 241, 241);}
+
     
 
 
@@ -23,6 +25,7 @@ body {
 .cabecalho ul {
 
     list-style: none;
+    cursor: pointer;
 }
 
 .cabecalho ul li {
@@ -223,6 +226,7 @@ text-align: center;
     margin-top: 280px;
     bottom:0;
     width:100%;
+    position: bottom;
 }
 
 .conteudo_footer {
@@ -247,4 +251,11 @@ color: white;
 #login_marc {
 
     color: rgb(238, 75, 0);
+}
+
+a {
+
+color: white;
+text-decoration: none;
+
 }

@@ -17,12 +17,17 @@
     padding: 60px 20px 0px 20px;
     border-radius: 20px;
     width: 400px;
+    height: 350px;
 }
 
 .pag-login .input-padrao {
 
-width: 50;
+width: 250px;
 display: inline-block;
+margin: 20px auto;
+height: 25px;
+border-radius: 5px;
+border: 1px solid gray;
 
 }
 
@@ -33,7 +38,6 @@ background-color: green;
 margin: 20px 0px 50px 0px;
 border: 0px;
 padding: 10px 20px;
-
 border-radius: 5px;
 float: left;
 cursor: pointer;
@@ -46,6 +50,7 @@ cursor: pointer;
 display: block;
 float: none;
 margin: auto;
+margin-top: 30px;
 
 }
 
