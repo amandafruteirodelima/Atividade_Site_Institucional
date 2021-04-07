@@ -1,25 +1,31 @@
-.cabecalho {
 
-  background-color: #232323;  
-  height: 50px;
-  width: 100%;
-} 
 
 body {
 
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;}
     
 
-}
 
-ul {
+/*Início cabeçalho*/    
+
+.cabecalho {
+
+  background-color: #232323;  
+  height: 50px;
+  width: 100%;
+  border-bottom: 3px solid rgb(238, 75, 0) ; /*grossura, tipo(solid,dashed) e cor da borda*/
+
+  
+} 
+
+.cabecalho ul {
 
     list-style: none;
 }
 
-ul li {
+.cabecalho ul li {
  
 color: white;
 display: inline;
@@ -29,14 +35,14 @@ display: inline;
 .cabecalho nav {
 
     float: right;
-
 }
 
-li {
-
+.cabecalho li {
     margin: 0 20px;
     font-size: large;
 }
+
+/*Fim do Cabeçalho */
 
 span h2 {
 
@@ -46,7 +52,6 @@ span h2 {
     margin-top: 10px;
  
 }
-
 .caixa {
     max-width: 1300px;
     margin: 0 auto;
@@ -58,7 +63,6 @@ h2 {
     margin: 0;
     height: 0;
 }
-
 span b { 
     color: rgb(238, 75, 0); 
 }
@@ -96,6 +100,13 @@ text-align: center;
 
 }
 
+
+/*Fim apresentação*/
+
+
+
+/*Início pesquisa*/
+
 .barra .caixa {
 
     max-width: 90%;
@@ -130,13 +141,14 @@ border: none;
    
 }
 
-#quebra_linha {
+/*#quebra_linha {
 
     background-color:rgb(238, 75, 0)  ;
     min-height: 3px;
 
-}
+}*/
 
+/*Fim pesquisa*/
 
 /*Início Missão, Visão e Valores*/
 
@@ -184,27 +196,7 @@ margin-top: 60px;
     
          }
 
-
-#img_visao {
-
-width: 100px;
-margin-left: 50px;
-margin-right: 50px;
-
-    
-}
-
-#img_valores {
-
-width: 100px;  
-margin-left: 50px;
-margin-right: 50px;
-
-
-}
-
-
-#img_missao {
+.img {
 
 width: 100px;  
 margin-left: 50px;
@@ -248,3 +240,11 @@ color: white;
 
 /*Fim footer*/
 
+
+
+/*border bottom */
+
+#login_marc {
+
+    color: rgb(238, 75, 0);
+}
