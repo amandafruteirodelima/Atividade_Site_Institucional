@@ -1,27 +1,34 @@
-body {
 
-    margin: 0;
-background-color: rgb(241, 241, 241);
-
-}
-
-
-.conteudo_cadastro {
-    max-width: 1300px;
+.cadastro {
+    width: 1300px;
     margin: 0 auto;
 
 }
 
+.texto_cadastro {
+
+    padding: 50px;
+}
+
+.conteudo_cadastro{
+
+    width: 1300px;
+     }
+
+#img_cadastro {
+
+    width: 500px;
+    float: right;
+    margin: 30px 50px;}
+    
 
 .inpt_cadastro{
 
-height: 25px;
+height: 30px;
 width: 400px;
 border-radius: 4px;
-border: 1px solid gray;
-margin-bottom: 25px;
-
-}
+border: 1px solid rgb(179, 179, 179);
+margin-bottom: 25px;}
 
 
 .btn_cadastro {
@@ -32,20 +39,30 @@ border: 0px;
 padding: 10px 20px;
 border-radius: 5px;
 float: left;
-cursor: pointer;
+cursor: pointer;}
 
 
 
+/*Início footer*/
 
-}
+.footer {
+
+    background-color:rgb(238, 75, 0);
+    height: 50px;
+    bottom:0;
+    width:100%;
+    margin-top: 200px;}
+
+.conteudo_footer {
+
+    padding-top: 5px;
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;}
+
+#texto_footer {
+
+   color: white;}
 
 
-#img_cadastro {
-
-width: 500px;
-margin: 0;
-float: right;
-margin: 30px 50px;
-
-
-}
+/*Fim do footer*/

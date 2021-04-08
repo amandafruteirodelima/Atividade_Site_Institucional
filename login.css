@@ -1,17 +1,17 @@
 
 
 /*Início caixa login*/
+
 .pag-login {
 
-    background-color: #ecf0f1;
-    text-align: center;
+    text-align: center; 
     padding: 50px 0;
+    /*Quando quero alinhar algo na página seja divs ou qualquer coisa, coloco na div que engolba todas as outras o text-align e o padding (caso eu queira)*/
 }
 
 .box-login {
 
-
-    display: inline-block;
+    display: inline-block; /*Este comando faz a div ficar no meio da tela*/
     background-color: white;
     box-shadow: 3px 2px 5px 3px #ccc;
     padding: 60px 20px 0px 20px;
@@ -20,11 +20,18 @@
     height: 350px;
 }
 
+.dados_login{
+
+text-align: center;
+margin-right: 40px;
+
+}
+
 .pag-login .input-padrao {
 
 width: 250px;
 display: inline-block;
-margin: 20px auto;
+margin: 20px 5px;
 height: 25px;
 border-radius: 5px;
 border: 1px solid gray;
@@ -39,20 +46,53 @@ margin: 20px 0px 50px 0px;
 border: 0px;
 padding: 10px 20px;
 border-radius: 5px;
-float: left;
 cursor: pointer;
-
-
-}
-
-.pag-login .btn-green {
-
 display: block;
 float: none;
 margin: auto;
-margin-top: 30px;
+margin-top: 30px;}
 
-}
 
 
 /*Fim caixa login*/
+
+
+
+#login_marc {
+
+    color: rgb(238, 75, 0);
+}
+
+/*Início footer*/
+
+.footer {
+
+    background-color:rgb(238, 75, 0);
+    height: 50px;
+    bottom:0;
+    width:100%;
+    margin-top: 250px;
+    position: absolute;
+    
+
+
+}
+
+.conteudo_footer {
+
+    padding-top: 5px;
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+   
+
+
+}
+
+#texto_footer {
+
+color: white;
+}
+
+
+/*Fim do footer*/

@@ -1,0 +1,81 @@
+
+
+/*Aqui está o CSS que será aplicado em todas as páginas no geral, no caso somente as alterações do body e do header*/
+
+
+/*Início HTML geral*/
+
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(241, 241, 241);}
+
+
+
+/*Fim HTML geral*/
+    
+
+/*Início header*/    
+
+.cabecalho {
+
+   background-color: #232323;  
+   height: 50px;
+   width: 100%;
+   border-bottom: 3px solid rgb(238, 75, 0) ; /*grossura, tipo(solid,dashed) e cor da borda*/} 
+
+
+.caixa_cabecalho {
+
+    max-width: 1200px;
+    margin: 0 auto;}
+
+    
+.cabecalho h2 {
+  
+    color: white;
+    font-size: 25px;
+    float: left;
+    margin-top: 10px;}
+
+
+.cabecalho b { 
+    color: rgb(238, 75, 0); }
+
+    
+.cabecalho nav {
+
+    float: right;}
+
+.link_cabecalho{
+
+        color: white;
+        text-decoration: none;}
+
+.cabecalho ul {
+
+        list-style: none;
+        cursor: pointer;}
+        
+    
+.cabecalho li {
+        margin: 0 20px;
+        font-size: large;
+        color: white;
+        display: inline;}
+
+
+.destaque_laranja /*Deve ser colocado na tag <a> se não ele não saberá qual configuração pegar: .cabecalho li ou .destaque_laranja*/ {
+
+       color: rgb(238, 75, 0);
+       text-decoration: none;}
+
+
+/*Fim do header */
+
+
+
+
+

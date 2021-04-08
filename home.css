@@ -1,0 +1,161 @@
+/*Início da Apresentação*/
+
+.apresentacao{
+
+
+   background-image: url("team.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 400px;}
+
+
+.apresentacao_caixa {
+
+   color: white;
+   text-align: center;
+   padding-top: 30px;}
+
+
+.apresentacao_caixa h1 {
+
+    font-size: 40px;
+    margin-top: 0;}
+
+
+/*Fim da Apresentação*/
+
+
+/*Início pesquisa*/
+
+.div_preta {
+
+    background-color: #232323 ;
+    height: 100px;}
+
+
+.div_preta_caixa {
+
+    max-width: 1030;}
+
+.div_preta_caixa h2 {
+
+        color: white;
+        float: left;
+        font-size: 30px;
+        text-align: center;
+        padding: 5px 50px 5px 50px;}
+    
+
+.div_email {
+
+    float: right;
+    text-align: center;
+    padding: 35px 50px 5px 50px;}
+
+.but_enviar {
+
+   background-color: rgb(238, 75, 0) ;
+   color: white;
+   border: none;
+   height: 27px;}
+
+
+.inpt_email{
+
+   height: 22px;
+   margin-right: 4px;
+   width: 300px;}    
+
+/*Fim pesquisa*/
+
+
+
+/*Início Missão, Visão e Valores*/
+
+.cultura_empresa{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 0 220px;
+    
+}
+
+.cultura_empresa_dados {
+
+width: 80%;
+padding-top: 60px;
+text-align: center;
+margin: 0;
+
+
+}
+
+.div_visao {
+
+    width: 200px;
+    float: left;
+    margin: 0 50px;
+   
+    
+   
+    }
+    
+.div_valores {
+        
+    width: 200px;
+    float: left;
+    margin: 0 50px;
+    
+ 
+    
+    }
+    
+.div_missao {
+        
+    width: 200px;
+    float: left;
+    margin: 0 50px;
+    }
+
+
+.img_cultura {
+
+    width: 100px;
+    margin: 0;
+
+}
+
+.texto_cultura {
+
+float: bottom;
+text-align: center;
+
+}
+
+
+/*Fim Missão, Visão e Valores*/
+
+
+
+/*Início footer*/
+
+.footer {
+
+    background-color:rgb(238, 75, 0);
+    height: 50px;
+    bottom:0;
+    width:100%;
+    margin-top: 220px;}
+
+.conteudo_footer {
+
+    padding-top: 5px;
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;}
+
+#texto_footer {
+
+    color: white;}
+
+/*Fim do footer*/
