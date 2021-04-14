@@ -12,12 +12,11 @@
 
 .conteudo_cadastro{
 
-    width: 1300px;
-     }
-
+    width: 1300px;}
+/*overflow: auto;Faz com que o texto vá para baixo*/
 #img_cadastro {
 
-    width: 500px;
+    width: 500px; 
     float: right;
     margin: 30px 50px;}
     

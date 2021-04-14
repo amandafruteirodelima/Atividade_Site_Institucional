@@ -3,7 +3,7 @@
 /*Início caixa login*/
 
 .pag-login {
-
+    
     text-align: center; 
     padding: 50px 0;
     /*Quando quero alinhar algo na página seja divs ou qualquer coisa, coloco na div que engolba todas as outras o text-align e o padding (caso eu queira)*/
